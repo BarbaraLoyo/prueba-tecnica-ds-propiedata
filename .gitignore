@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.Python
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# Notebooks - permitir entrega pero ignorar checkpoints
+**/.ipynb_checkpoints/
+
+# Outputs grandes
+output/*.parquet
+output/*.gpkg
+output/*.pkl
+output/models/
+!output/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+.env.local
+*.env
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# Logs
+*.log
